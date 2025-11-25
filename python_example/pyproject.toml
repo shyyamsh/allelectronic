@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "python-example-converters"
+version = "0.1.0"
+description = "A small beginner-friendly Python example: unit converters + CLI"
+authors = ["allelectronic"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
